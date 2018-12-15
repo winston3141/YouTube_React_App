@@ -1,11 +1,11 @@
 import React from 'react';
 
-const VideoListItem = ({video, onVideoSelect}) => {
+const NavBarItem = ({video, onVideoSelect}) => {
 
 	const imageUrl = video.snippet.thumbnails.default.url;
 
 	return (
-		<li onClick={() => onVideoSelect(video)} className="list-group-item">
+		<li onClick={() => onVideoSelect(video)} className="nav-bar-item">
 			<div className="video-list media">
 				<div className="media-left">
 					<img className="media-object" src={imageUrl}/>
@@ -18,4 +18,4 @@ const VideoListItem = ({video, onVideoSelect}) => {
 	);
 };
 
-export default VideoListItem;
+export default NavBarItem;

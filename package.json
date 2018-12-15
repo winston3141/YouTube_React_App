@@ -1,5 +1,5 @@
 {
-  "name": "YouTube React App",
+  "name": "ReduxSimpleStarter",
   "version": "1.0.0",
   "description": "An app made by a group of students at Stevens",
   "main": "index.js",
@@ -22,8 +22,10 @@
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
+    "python-shell": "^1.0.6",
     "react": "16.3.2",
     "react-dom": "16.3.2",
+    "react-highlight": "^0.12.0",
     "react-redux": "5.0.7",
     "redux": "4.0.0",
     "youtube-api-search": "0.0.5"

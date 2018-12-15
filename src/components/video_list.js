@@ -1,10 +1,10 @@
 import React from 'react';
-import VideoListItem from './video_list_item';
+import NavBarItem from './nav-bar-item';
 
 const VideoList = (props) => {
-	const videoItems = props.videos.map ((video) => {
+	const navBarItems = props.videos.map ((video) => {
 		return (
-			<VideoListItem
+			<NavBarItem
 			  onVideoSelect={props.onVideoSelect}
 			  key={video.etag}
 			  video={video} />
@@ -13,7 +13,7 @@ const VideoList = (props) => {
 
 	return (
 		<ul className="col-md-4 list-group">
-			{videoItems}
+			{navBarItems}
 		</ul>
 	);
 };

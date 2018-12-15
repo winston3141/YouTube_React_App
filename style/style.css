@@ -1,9 +1,10 @@
-.search-bar {
+.query-bar {
 	margin: 20px;
 	text-align: center;
+	color: black;
 }
 
-.search-bar input {
+.query-bar input {
 	width: 75%;
 }
 
@@ -14,10 +15,15 @@
 	border-radius: 4px;
 }
 
-.list-group-item {
+.nav-bar-item {
 	cursor: pointer;
 }
 
-.list-group-item:hover {
+.nav-bar-item:hover {
 	background-color: #e6eeff;
+}
+
+body {
+	background-color: grey;
+	color: white;
 }
